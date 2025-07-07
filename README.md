@@ -61,16 +61,20 @@ Implemented using Matplotlib(bokeh wasn't working).
 - matplotlib	Visualization
 - Google Colab	Execution environment
 
+**Execution Workflow:**
+
 **Architecture Diagram**
+
 ![Architecture Diagram](./architecture_diagram.png)
 
-**Execution Workflow:**
 Run pricing_engine.ipynb
 - Stream prices using Pathway
 - Outputs saved to jsonl files
+
 Run pricing_analysis.ipynb
 - Read all three models’ outputs
 - Plot comparisons
+
 
 **Project is split into 2 notebooks for clarity: streaming and analysis.**
 **Only allowed libraries were used.**
