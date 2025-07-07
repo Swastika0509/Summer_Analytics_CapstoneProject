@@ -14,8 +14,11 @@ Updates parking prices in real-time based on:
   - Vehicle type
   - Special days
   - Competitor pricing
+    
 It Implements 3 pricing models from scratch.
+
 Produces smooth and explainable price variations
+
 Provides visual comparisons between pricing strategies
 
 **Models Implemented:**
@@ -31,6 +34,7 @@ Price_{t+1} = Price_t + α × (Occupancy / Capacity)
 Adjusts price using a demand function:
 Formula:
 Demand=α(Occupancy/Capacity)+β(Queue)−γ(Traffic)+δ(SpecialDay)+ε(VehicleTypeWeight)
+
 Final Price:
 Price=Base×(1+λ×NormalizedDemand)
 
@@ -38,6 +42,7 @@ Price=Base×(1+λ×NormalizedDemand)
 
 Adds competitive logic based on geolocation:
 Nearby lots cheaper → reduce or suggest rerouting
+
 Nearby lots expensive → price can be raised moderately
 
 # Project Structure
