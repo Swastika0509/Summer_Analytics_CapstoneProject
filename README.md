@@ -42,6 +42,7 @@ Nearby lots expensive → price can be raised moderately
 
 # Project Structure
 **File Name	Description:** 
+- Architecture Diagram.png
 - dataset.csv	Original dataset (raw parking records)
 - parking_stream.csv	Cleaned + timestamp-aligned data used in Pathway
 - model1_prices.jsonl	Real-time pricing output from Model 1
@@ -59,6 +60,9 @@ Implemented using Matplotlib(bokeh wasn't working).
 - pathway	Real-time simulation
 - matplotlib	Visualization
 - Google Colab	Execution environment
+
+**Architecture Diagram**
+![Architecture Diagram](./architecture_diagram.png)
 
 **Execution Workflow:**
 Run pricing_engine.ipynb
