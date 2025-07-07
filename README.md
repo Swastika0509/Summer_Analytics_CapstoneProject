@@ -42,7 +42,7 @@ Nearby lots expensive → price can be raised moderately
 
 # Project Structure
 **File Name	Description:** 
-- Architecture Diagram.png
+- architecture_diagram.png
 - dataset.csv	Original dataset (raw parking records)
 - parking_stream.csv	Cleaned + timestamp-aligned data used in Pathway
 - model1_prices.jsonl	Real-time pricing output from Model 1
